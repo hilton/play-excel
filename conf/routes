@@ -1,0 +1,6 @@
+GET     /					TimeZones.index
+GET     /current.xls		TimeZones.current(format:'xls')
+GET     /timezones.xls	TimeZones.list(format:'xls')
+GET     /regions.xls		TimeZones.regions(format:'xls')
+
+GET     /public/                                staticDir:public
